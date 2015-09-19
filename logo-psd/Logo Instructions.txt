@@ -1,0 +1,38 @@
+Logo Instructions for Gossip City 2
+
+/*  
+Theme Name: Gossip City 2
+Theme URI: http://wp-themes.designdisease.com/
+*/
+
+
+Editing the PSD
+ ___________________________________________________________________________________________
+
+1. You can edit and change the logo with Photoshop.
+2. The psd source for the Gossip City Theme Logo is located in the /gossipcity/logo-psd/
+3. The Original font required is Arial (You can change the font.)
+4. After editing the logo do not change the background.
+5. Do not change the size of the logo (The original size is 396px X 84px.)
+6. Save the logo in this location where theme files are. (/gossipcity/gossipcity/logo.png)
+7. Do not change the extention of the logo into jpg, jpeg, gif or other formats. Save it as PNG (Portable Network Graphics) 
+
+
+
+Editing the PHP files 
+___________________________________________________________________________________________
+
+7. To switch the logo from text to image you need to follow some steps. Open the "header.php" and switch this line from: 
+
+<?php include (TEMPLATEPATH . "/logo-text.php"); ?> 
+
+to 
+
+<?php include (TEMPLATEPATH . "/logo-img.php"); ?>
+
+
+
+Done ___________________________________________________________________________________________
+
+If you don't understand all this leave the theme unchanged with a Text Logo.
+

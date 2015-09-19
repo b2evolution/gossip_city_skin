@@ -1,0 +1,233 @@
+/* Designed by François PLANQUE - http://fplanque.net/ */
+
+/*    / / / / / / / / / // / / / / / // /  / // / / / // / / / / // / / / / // / / / / / /
+| Theme Name: Gossip_city Version: 0.1
+| Author: Emin Özlem aka tilqicom in b2evolution forums
+| Author websites: cssdizayn.com, tilqi.com, prosoftwarez.com
+| Contact: eminozlem@gmail.com
+| Original design by : "Design Disease" http://wp-themes.designdisease.com/
+| Description: designed for b2evolution 2.x series , 1024+ resolutions fixed width
+*/ 
+/* ###! Beware that, Calendar and title widgets are hidden with display: none, remove the lines to reactivate and also 
+	-webkit-text-size-adjust: none; /* iPhone */  /*
+has been removed to avoid validation fail. delete the basic.css in the skin folder if you want it back.
+*/
+
+
+body, *, html {
+margin: 0;
+padding: 0;}
+
+body ul li { /* remove all the bullets, i dont like em, we ll add if we need later on*/
+list-style-type: none;}
+body { background: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; padding: 0px; margin: 0px; color:#35383d;}
+
+html { padding: 0; margin: 0;}
+
+a:link { text-decoration: none; color : #ff3399; border: 0px;}
+a:active { text-decoration: underline; color : #ff3399; border: 0px;}
+a:visited { text-decoration: none; color : #ff3399; border: 0px;}
+a:hover	{ text-decoration: underline; color : #0099cc; border: 0px;} 
+a:focus { outline: none;}
+
+h1, h2, h3, h4 { font-family: Arial, Helvetica, sans-serif;}
+
+img { padding: 0px; margin: 0px; border: none; text-align: center;}
+hr { border-left:0px solid #abb0b5; border-right:0px solid #abb0b5; border-top:1px dotted #abb0b5; border-bottom:0px solid #abb0b5; height : 1px;  }
+
+form { padding: 0px; margin: 0px;}
+input { font-family: 'Verdana'; color: #282b31; font-size: 11px;}
+textarea { font-family: 'Verdana'; color: #282b31; font-size: 11px;}
+select { font-family: 'Verdana'; color: #282b31; font-size: 11px;}
+
+/* Header +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Header {
+width: 900px; margin: 0 auto; background: url(images/Stars.gif) top right no-repeat;}
+.HBG { background: url(images/HeaderBkg.gif) repeat-x center top; width: 100%; float: left;}
+
+.LogoImg {
+position: relative;
+top: 58px;
+}
+.skin_wrapper_anonymous .widget_core_coll_tagline {
+top: 20px;}
+.widget_core_coll_tagline {
+position: absolute;
+top: 40px;
+font-weight: bold;
+font-size: 10pt;
+color: #fff;}
+
+.widget_core_coll_title {/*i will hide the title widget as we already have a logo/text image no header remove below line to activate it*/
+display: none;}
+
+.SUBH { background: #f3e4eb url(images/MRight.gif) no-repeat right top; margin: 0 auto; width: 900px; padding: 0px; position: relative; height: 41px}
+
+.Menu { background: #f3e4eb url(images/MLeft.gif) no-repeat left top; width: 880px; padding: 0px; height: 41px; margin-top: 75px; }
+.Menu ul { list-style: none; margin: 0px; padding: 14px 0px 0px 15px;}
+.Menu ul li { padding: 0px 5px 0px 5px; margin: 0px; display: inline; font-size: 11px; border-right: solid 1px #b092a2; }
+.Menu ul li a { color:#660033;}
+.Menu ul li ul { display: none;}
+
+.blog_list {
+	position: absolute;
+	margin-top: 50px;
+}
+.blog_list a {
+	padding: 0px 10px;
+}
+.CONBG { width: 100%; float: left; }
+.CON { width: 900px; position: relative; margin: 0 auto; padding: 0px; margin-top: 25px;}
+
+.SC { width: 455px; float: left; padding: 0px 0px 20px 0px;}
+.SC h2 { font-weight: normal;}
+
+.PostDet { padding: 1px 0px; margin: 0px; font-size: 10px; color:#cc9966; font-weight: bold;}
+.PostDet a { color:#cc9966; text-decoration: underline;}
+.PostDet a:visited { color:#cc9966; text-decoration: underline;}
+.PostDet a:hover { color:#cc9966; text-decoration: underline;}
+
+/* Side Right Left +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.SRL { width: 230px; float: left; padding: 0px;}
+
+/* Side Right Right +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.SRR { width: 160px; float: right; padding: 0px;}
+
+.Post {	padding: 15px 20px 5px 2px; position: relative; clear: left; margin-bottom: 60px;}
+.SR h3 { font-size: 14px; letter-spacing: -1px; font-weight: bold; background: url(images/SRH3.png) no-repeat left center; color:#666; padding: 5px 0px 5px 20px; margin: 0px; border-bottom: dashed 1px #efe4e4; }
+
+
+.SR { width: 415px; float: right; position: relative; padding: 0px 0px 20px 0px; }
+.SR h2 { font-size: 14px; letter-spacing: -1px; font-weight: bold; background: url(images/SRH3.png) repeat-x left bottom; color:#666; padding: 5px 0px 5px 0px; margin: 0px; border-bottom: dashed 1px #efe4e4; }
+.SR h3 { font-size: 14px; letter-spacing: -1px; font-weight: bold; background: url(images/SRH3.png) no-repeat left center; color:#666; padding: 5px 0px 5px 20px; margin: 0px; border-bottom: dashed 1px #efe4e4; }
+
+
+.SR ul { margin: 0px; padding: 0px; margin-bottom: 20px;}
+.SR li { margin: 0px; padding: 2px 0px 3px 15px; list-style-type: none; background: url(images/CategLi.png) no-repeat left top; border-bottom: dashed 1px #efe4e4; font-size: 11px;}
+.SR li a { color:#cc3366; }
+.SR li a:visited { color:#cc3366; }
+.SR li a:hover { color:#cc0066;}
+.Syn { position:absolute; left: 484px; top: 12px; }
+
+.Syn ul { margin: 0px; padding: 0px;}
+.Syn li { background: url(images/SynIco.png) no-repeat left center; margin: 0px 5px 0px 0px; padding: 3px 0px 3px 15px; list-style-type: none; font-size: 10px; color:#cc0066; display: inline; font-weight: bold;}
+
+.widget_plugin_evo_Calr {/* i hate this calendar it mostly distorts the outlook*/
+display: none;}
+
+.bText { padding: 10px 0px 0px 0px; font-size: 11px; line-height: 1.4em ; color:#63565f;}
+.bText p { font-size: 11px; line-height: 1.4em; color:#63565f;}
+.bText p strong {}
+.bText img {}
+.bText ol { padding: 10px 0px 10px 25px; margin: 0px; }
+.bText ol li { padding: 2px 0px 2px 0px; font-size: 11px; line-height: 15px; color:#63565f; }
+.bText ul { padding: 10px 0px; margin: 0px; }
+.bText ul li { padding: 2px 0px 2px 15px; list-style-type: none; background: url(images/bTextLiIco.png) no-repeat left top; font-size: 11px; line-height: 15px; color:#63565f; }
+.bText blockquote { padding: 5px 0px; margin: 0px; color:#993366; font-style: italic; border-top: dashed 1px #cc99cc; border-bottom: dashed 1px #cc99cc; }
+.bText blockquote p { font-size: 11px; padding: 3px 0px; margin: 3px 0px; line-height: 15px; color:#993366; }
+.bText blockquote li { padding: 2px 0px 2px 15px; list-style-type: none; background: url(images/bTextBlockLiIco.png) no-repeat left top; font-size: 11px; line-height: 15px; color:#993366; }
+.bText a { text-decoration: underline;}
+
+.PostHead h2 { font-size: 24px; line-height: 24px; letter-spacing: -1px; font-weight: bold; padding: 0px 0px 1px 0px; margin: 0px; color:#000066;}
+.PostHead h2 a { color: #cc3366; text-decoration: none;}
+.PostHead h2 a:visited { color: #cc3366; text-decoration: none;}
+.PostHead h2 a:hover { color:#ff0066; text-decoration: none;}
+
+.PostTime { padding: 1px 0px; margin: 0px; font-size: 14px; color:#999; font-weight: bold; font-family: 'Arial'; position: absolute; letter-spacing: -1px; top: 0px; text-transform: lowercase;}
+
+/* Search ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Search .extended_search_form { background: url(images/Search.gif) no-repeat left top; position: absolute; top: 10px; right: 10px; width: 185px; height: 22px;}
+.Search .search_field {
+	background: transparent !important; color: #fff; padding: 3px 0px 0px 8px; width: 148px !important;
+}
+.Search .search_field:focus {
+	outline: 0 !important;
+}
+.Search .submit { 
+	width: 19px; height: 18px; background: url(./images/SearchButton.gif) no-repeat; position:absolute; top: 2px; right: 1px; text-indent: -9999px;
+}
+.Search .submit:hover {
+	background-color: transparent !important;
+	border: none !important;
+	cursor: pointer;
+}
+
+
+.Search form { padding: 2px 0px 0px 0px; margin: 0px;}
+.Search input { border: none; color: #330033; font-size: 11px;}
+
+.Search  input.keyword { background: none; border: none; padding: 2px 0px 2px 8px; width: 165px; border: none; color:#fff; } 
+.Search  input.search { width: 19px; height: 18px; background: url(./images/SearchButton.gif) no-repeat; position:absolute; top: 2px;}
+
+.Search .bt { padding: 0px; margin: 0px 0px 0px 165px; top: 2px; background: none; position: absolute; right: 11px; }
+
+.PostCom { padding-top: 15px;}
+.PostCom ul { padding: 0px; margin: 0px;}
+.PostCom li { padding: 5px 0px 5px 24px; margin: 0px; list-style-type: none; display: inline; color:#336699; font-size: 12px; background: url(images/PostCom.png) no-repeat left center; } 
+.PostCom li a { text-decoration: underline; } 
+
+.posttags {
+background: url(images/tag_pink.png) left no-repeat;
+padding-left: 20px;}
+
+.widget_core_coll_category_list ul { /*tidy that category list*/
+margin-bottom: -4px;}
+
+.EBG { background: url(images/ExtraBkg.gif); width: 100%; float: left; border-top: solid 1px #ecdce3; border-bottom: solid 1px #ecdce3; padding: 20px 0px;}
+
+.EBG ul li {
+display: inline;
+margin-right: 50px;
+}
+.EBG ul li a {
+background: url(images/tpstar.gif) left no-repeat;
+font-size: 14px;
+padding-left: 20px;
+color: #003366;
+font-weight: bold;}
+
+.misclinks {
+width: 900px;
+margin: 0 auto;}
+
+#Footer {
+clear: both;
+width: 860px; margin: 0 auto; background: url(images/FooterIco.png) no-repeat left center; padding: 20px 0px 20px 40px;}
+
+#Footer p { font-size: 10px; color:#706c79; padding: 0px; margin: 0px; }
+#Footer a { color:#706c79; text-decoration: underline;}
+
+.shiny_bars {margin-top: 15px; margin: 0 auto; width: 500px;}
+.shiny_bars ul li a img {
+display: inline;
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+	filter: alpha(opacity=60);}
+	
+.shiny_bars ul li a:hover img {
+display: inline;
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);}
+	
+	.shiny_bars ul li {
+	display: inline;}
+/* that's the most of it, time for the release, i know, i knoow...css needs tidying up, later son, later...*/
+
+form.bComment .submit, form.bComment .preview, .compact_search_form .submit, #content .extended_search_form .submit {
+	color: #fff;
+	background-color: #cc0066;
+	border-radius: 0px !important;
+	border:1px solid #cc0066 !important;
+	cursor: pointer;
+	padding: 1px;
+}
+#content .extended_search_form .submit {
+	margin-left: 3px;
+}
+form.bComment .submit:hover, form.bComment .preview:hover, .compact_search_form .submit:hover, #content .extended_search_form .submit:hover {
+	opacity: 0.8;
+	background-color: #cc0066;
+	color: #fff;
+}
